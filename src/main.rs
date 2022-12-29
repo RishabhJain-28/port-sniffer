@@ -8,7 +8,7 @@ use std::{
     net::{IpAddr, TcpStream},
 };
 
-const DEFAULT_THREADS: u16 = 1000;
+const DEFAULT_THREADS: u16 = 4;
 const MAX_PORT: u16 = 65535;
 
 fn print_help() {
